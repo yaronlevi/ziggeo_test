@@ -7,6 +7,7 @@
  */
 
 import React from 'react';
+import Ziggeo from 'react-native-ziggeo-library';
 import {
   SafeAreaView,
   StyleSheet,
