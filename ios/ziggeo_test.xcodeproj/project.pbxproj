@@ -18,6 +18,8 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* ziggeo_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ziggeo_testTests.m */; };
+		3CD193C0242BBCDF000BE017 /* Ziggeo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD193B1242BB556000BE017 /* Ziggeo.framework */; };
+		3CD193C1242BBCDF000BE017 /* Ziggeo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD193B1242BB556000BE017 /* Ziggeo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		541EAA74F9B043037ADB59E2 /* libPods-ziggeo_testTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B67B93C667902502161AA739 /* libPods-ziggeo_testTests.a */; };
 		E013E152BA4335EA99D9A86A /* libPods-ziggeo_test-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9589E04337D1730578232E1D /* libPods-ziggeo_test-tvOS.a */; };
 /* End PBXBuildFile section */
@@ -39,6 +41,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3CD193C2242BBCE0000BE017 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3CD193C1242BBCDF000BE017 /* Ziggeo.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* ziggeo_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ziggeo_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +72,7 @@
 		2D02E4901E0B4A5D006451C7 /* ziggeo_test-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ziggeo_test-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3312F301FC5E17BFB68C72E6 /* Pods-ziggeo_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ziggeo_test.release.xcconfig"; path = "Target Support Files/Pods-ziggeo_test/Pods-ziggeo_test.release.xcconfig"; sourceTree = "<group>"; };
 		362DB7B579863FF46C6C4C2E /* Pods-ziggeo_test-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ziggeo_test-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ziggeo_test-tvOS/Pods-ziggeo_test-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3CD193B1242BB556000BE017 /* Ziggeo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Ziggeo.framework; sourceTree = "<group>"; };
 		4C68BF731CEECC822FF14AAD /* Pods-ziggeo_testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ziggeo_testTests.release.xcconfig"; path = "Target Support Files/Pods-ziggeo_testTests/Pods-ziggeo_testTests.release.xcconfig"; sourceTree = "<group>"; };
 		60FAEFB6DDA220ADAE1C211C /* libPods-ziggeo_test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ziggeo_test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A493CBDE27FA480CB47F287 /* Pods-ziggeo_test-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ziggeo_test-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ziggeo_test-tvOSTests/Pods-ziggeo_test-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CEFD9A394F046C301CE65FE /* libPods-ziggeo_test.a in Frameworks */,
+				3CD193C0242BBCDF000BE017 /* Ziggeo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +157,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3CD193B1242BB556000BE017 /* Ziggeo.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				60FAEFB6DDA220ADAE1C211C /* libPods-ziggeo_test.a */,
@@ -229,6 +248,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				3CD193C2242BBCE0000BE017 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -637,6 +657,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = YEV5ND9L68;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ziggeo_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -657,6 +681,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4W67C356WG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ziggeo_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
